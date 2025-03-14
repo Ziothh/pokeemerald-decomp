@@ -47,6 +47,7 @@
           nativeBuildInputs = with pkgs; [
             pkg-config
             cmake
+            llvmPackages_19.clang-tools
           ];
 
           buildInputs = with pkgs; [
